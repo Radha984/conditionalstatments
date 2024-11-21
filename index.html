@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //task1
+
+        let day=prompt("enter a day");
+        if(day=="monday"){
+            console.log("start your week strong");
+        }
+        else if(day=="tuesday"){
+            console.log("keep going");
+
+        }
+        else if(day=="wednesday") console.log("halfway there");
+        else if(day=="thursday") console.log("almost the weekend");
+        else if(day=="friday") console.log("happy friday");
+        else if(day=="saturday") console.log("enjoy your weekend");
+        else if(day=="sunday") console.log("happy weeekend");
+        else console.log("invalid day");
+
+
+                 
+          //task2
+
+        var color=prompt("enter a color of the traffic light");
+        
+        switch(color){
+            case "red":
+                console.log("stop: the traffic light is red");
+                break;
+                case "yellow": 
+                console.log("get ready: the traffic light is yellow");
+                break;
+                case "green":
+                console.log("go: the traffic light is green");
+                    break;
+                    default: 
+                console.log("not a color");
+                break;             
+
+        }
+
+           //task3
+
+        let amount=+prompt("Enter the total purchase amount");
+
+          if(amount<50){
+           console.log("no discount");
+           }             
+        
+        else if(amount>=50 && amount<=100){
+           console.log("5% discount");
+                } 
+         else if (amount>100 && amount<200) {
+            console.log("10% discount");
+         }
+        else if (amount>200) {
+       console.log("15% discount");
+          } 
+          else {
+            console.log("Invalid amount");
+           }
+
+
+
+      //task4
+
+      let dish=prompt("enter a dish name");
+      switch(dish){
+        case "biriyani":
+            console.log("price of biriyani is 250 ruppes");
+            break;
+            case "veg pullav":
+            console.log("price of veg pulav is 180 ruppes");
+            break;
+            case "fried rice":
+            console.log("price of fried rice is 150 ruppes");
+            break;
+            case "kababs":
+            console.log("price of kababs is 250 ruppes");
+            break;
+            default:
+                console.log("invalid");
+        
+        
+
+      }
+      
+      //task5
+
+      let num1=+prompt("enter a number1");
+      let num2=+prompt("enter a number2");
+      let opp=prompt("enter a operator");
+      switch(opp){
+        case "+":
+            console.log(num1+num2)
+            break;
+
+        case "-":
+            console.log(num1-num2);
+            break;
+
+            case "*":   
+            console.log(num1*num2);
+            break;
+
+            case "/":
+            console.log(num1/num2);
+            break;
+
+            case "%":
+            console.log(num1%num2);
+            break;
+            
+            default:
+                console.log("invalid operator")
+      }
+      </script>
+      </body>
+        
+      </html>
+      
+
+
+
+
+         
